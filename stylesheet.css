@@ -1,3 +1,5 @@
+/* Used AI to fix styling issues and make it presentable. Initial code was messy. */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -69,12 +71,14 @@ body {
     border-radius: 8px;
 }
 
-.link-list {
+.my-link {
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
-
-.link-list a {
+   
+.my-link a {
+    display: flex;
+    gap: 30px;
     padding: 10px 20px;
     border: 2px solid white;
     border-radius: 8px;
@@ -82,7 +86,7 @@ body {
     text-decoration: none;
 }
 
-.link-list a:hover {
+.my-link a:hover {
     background-color: white;
     color: rgb(255, 123, 0);
 }
